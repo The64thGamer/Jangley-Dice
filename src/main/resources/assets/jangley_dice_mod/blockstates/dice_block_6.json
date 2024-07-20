@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "jangley_dice_mod:block/dice_block_6"
+    },
+    "facing=east": {
+      "model": "jangley_dice_mod:block/dice_block_6",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "jangley_dice_mod:block/dice_block_6",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "jangley_dice_mod:block/dice_block_6",
+      "y": 270
+    }
+  }
+}

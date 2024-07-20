@@ -1,0 +1,11 @@
+{
+  "dice_roll": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "jangley_dice_mod:dicey",
+        "stream": false
+      }
+    ]
+  }
+}

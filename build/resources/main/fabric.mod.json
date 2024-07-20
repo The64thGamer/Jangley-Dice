@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "jangley_dice_mod",
+  "version": "1.0.0",
+  "name": "Jangley Dice",
+  "authors": [
+    "The 64th Gamer"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "MIT License",
+  "icon": "assets/jangley_dice_mod/icon.png",
+  "accessWidener": "jangley_dice_mod.accesswidener",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mcreator.jangleydicemod.JangleyDiceModMod"
+    ],
+    "client": [
+      "net.mcreator.jangleydicemod.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "~1.20",
+    "java": ">=17"
+  },
+  "mixins": [
+    "jangley_dice_mod.mixins.json"
+  ]
+}

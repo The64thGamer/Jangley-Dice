@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "jangley_dice_mod:block/diceblockthree",
+    "up": "jangley_dice_mod:block/diceblockfour",
+    "north": "jangley_dice_mod:block/diceblocksix",
+    "east": "jangley_dice_mod:block/diceblocktwo",
+    "south": "jangley_dice_mod:block/diceblockone",
+    "west": "jangley_dice_mod:block/diceblockfive",
+    "particle": "jangley_dice_mod:block/diceblockthree"
+  },
+  "render_type": "solid"
+}

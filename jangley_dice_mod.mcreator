@@ -1,0 +1,188 @@
+{
+  "mod_elements": [
+    {
+      "name": "Dice_Roll",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dice_roll",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jangleydicemod/procedures/Dice_RollProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DiceBlock",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dice_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jangleydicemod/block/DiceBlockBlock.java",
+          "src/main/resources/assets/jangley_dice_mod/models/item/dice_block.json",
+          "src/main/resources/assets/jangley_dice_mod/blockstates/dice_block.json",
+          "src/main/resources/assets/jangley_dice_mod/models/block/dice_block.json"
+        ]
+      }
+    },
+    {
+      "name": "DiceBlock2",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dice_block_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jangley_dice_mod/models/block/dice_block_2.json",
+          "src/main/resources/assets/jangley_dice_mod/models/item/dice_block_2.json",
+          "src/main/java/net/mcreator/jangleydicemod/block/DiceBlock2Block.java",
+          "src/main/resources/assets/jangley_dice_mod/blockstates/dice_block_2.json"
+        ]
+      }
+    },
+    {
+      "name": "DiceBlock3",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dice_block_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jangley_dice_mod/blockstates/dice_block_3.json",
+          "src/main/resources/assets/jangley_dice_mod/models/item/dice_block_3.json",
+          "src/main/java/net/mcreator/jangleydicemod/block/DiceBlock3Block.java",
+          "src/main/resources/assets/jangley_dice_mod/models/block/dice_block_3.json"
+        ]
+      }
+    },
+    {
+      "name": "DiceBlock4",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dice_block_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jangley_dice_mod/models/block/dice_block_4.json",
+          "src/main/resources/assets/jangley_dice_mod/blockstates/dice_block_4.json",
+          "src/main/resources/assets/jangley_dice_mod/models/item/dice_block_4.json",
+          "src/main/java/net/mcreator/jangleydicemod/block/DiceBlock4Block.java"
+        ]
+      }
+    },
+    {
+      "name": "DiceBlock5",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dice_block_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jangley_dice_mod/models/block/dice_block_5.json",
+          "src/main/java/net/mcreator/jangleydicemod/block/DiceBlock5Block.java",
+          "src/main/resources/assets/jangley_dice_mod/blockstates/dice_block_5.json",
+          "src/main/resources/assets/jangley_dice_mod/models/item/dice_block_5.json"
+        ]
+      }
+    },
+    {
+      "name": "DiceBlock6",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dice_block_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jangley_dice_mod/models/item/dice_block_6.json",
+          "src/main/resources/assets/jangley_dice_mod/blockstates/dice_block_6.json",
+          "src/main/java/net/mcreator/jangleydicemod/block/DiceBlock6Block.java",
+          "src/main/resources/assets/jangley_dice_mod/models/block/dice_block_6.json"
+        ]
+      }
+    },
+    {
+      "name": "Dicerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dicerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jangley_dice_mod/recipes/dicerecipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "dice_roll",
+      "files": [
+        "dicey"
+      ],
+      "category": "block",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "block.jangley_dice_mod.dice_block_3": "Dice Block",
+      "block.jangley_dice_mod.dice_block_2": "Dice Block",
+      "block.jangley_dice_mod.dice_block_5": "Dice Block",
+      "block.jangley_dice_mod.dice_block_4": "Dice Block",
+      "subtitles.dice_roll": "",
+      "block.jangley_dice_mod.dice_block_6": "Dice Block",
+      "block.jangley_dice_mod.dice_block": "Dice Block"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "jangley_dice_mod",
+    "modName": "Jangley Dice",
+    "version": "1.0.0",
+    "author": "The 64th Gamer",
+    "websiteURL": "https://mcreator.net",
+    "license": "MIT License",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "2024-07-18_05.49.44",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.jangleydicemod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

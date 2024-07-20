@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "jangley_dice_mod:dice_block",
+    "jangley_dice_mod:dice_block_2",
+    "jangley_dice_mod:dice_block_3",
+    "jangley_dice_mod:dice_block_4",
+    "jangley_dice_mod:dice_block_5",
+    "jangley_dice_mod:dice_block_6"
+  ]
+}
